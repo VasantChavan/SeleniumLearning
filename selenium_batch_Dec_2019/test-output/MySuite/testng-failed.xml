@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MySuite]">
+  <test name="MyTestNgTest(failed)">
+    <classes>
+      <class name="testNgLearning.AnnotationsInTestNgTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testNgLearning.AnnotationsInTestNgTest -->
+      <class name="testNgLearning.DependacyInTestNg">
+        <methods>
+          <include name="loginTest"/>
+          <include name="logoutTest"/>
+          <include name="updateAnAccoutTest"/>
+        </methods>
+      </class> <!-- testNgLearning.DependacyInTestNg -->
+      <class name="testNgLearning.AssertionTestInTestNg">
+        <methods>
+          <include name="tc_005"/>
+          <include name="tc_008"/>
+          <include name="tc_001"/>
+          <include name="tc_003"/>
+        </methods>
+      </class> <!-- testNgLearning.AssertionTestInTestNg -->
+    </classes>
+  </test> <!-- MyTestNgTest(failed) -->
+</suite> <!-- Failed suite [MySuite] -->

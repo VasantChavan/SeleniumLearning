@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MySuite">
+  <test name="MyTestNgTest">
+    <classes>
+      <class name="testNgLearning.AnnotationsInTestNgTest"/>
+      <class name="testNgLearning.AssertionTestInTestNg"/>
+      <class name="testNgLearning.DependacyInTestNg"/>
+      <class name="testNgLearning.DisabledTestInTestNg"/>
+      <class name="testNgLearning.FirstScripts"/>
+      <class name="testNgLearning.PriotizeTestInTestNg"/>
+      <class name="testNgLearning.ReportslogsInTestNg"/>
+      <class name="testNgLearning.TestExecutionOrderInTestNg"/>
+    </classes>
+  </test> <!-- MyTestNgTest -->
+</suite> <!-- MySuite -->
